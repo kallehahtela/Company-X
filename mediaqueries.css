@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    nav {
+        width: 100vh;
+        height: 10vh;
+    }
+    
+    .logo {
+        width: 30vh;
+        height: auto;
+        position: absolute;
+        top: 2vh;
+        left: 2vh;
+    }
+}
