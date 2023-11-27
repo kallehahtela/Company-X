@@ -10,21 +10,21 @@
 
 </head>
 <body>
-    <header>
-    <nav>
-        <ul class="nav-bar">
-            <li class="logo"><a href="#"><img src="./Assets/logo.png" alt="logo"></a></li>  
-            <input type="checkbox" id="check">
-            <span class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Search</a></li>
-                <li><a href="">Contact</a></li>
-                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-            </span> 
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>    
-        </ul> 
-    </nav>
-    </header>
+    <section>
+        <div class="logo">
+            <a href="#"><img src="./Assets/logo.png" alt="Logo"></a>
+        </div>
+        <nav class="navigation">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Sign In</a>
+        </nav>
+        <div class="toggle">
+            <a onclick="showMenu()" href="#"><i class="menu fa-solid fa-bars" style="color: #000000;"></i></a>
+            <a onclick="showMenu()" href="#"> <i class="close fa-solid fa-xmark" style="color: #000000;"></i></a>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,2 +1,2 @@
-hex color pink logo 
-#cf7dbd
+hex color blue logo 
+#214ff8
