@@ -27,7 +27,7 @@ nav.navigation.active {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #cacaca;
+    background-color: #FFC0CB;
 }
 
 nav.navigation.active a {
@@ -42,14 +42,17 @@ nav.navigation.active a {
     width: 30vh;
 }
 
-i.menu.hide {
+img.menu.hide {
     display: none;
 }
 
-i.close {
+img.close {
     display: none;
 }
 
-i.close.show {
+img.close.show {
+    position: absolute;
+    top: 25px;
+    right: 25px;
     display: flex;
 }
