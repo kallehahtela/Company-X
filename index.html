@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <section>
+    <section id="nav">
         <div class="logo">
             <a href="#"><img src="./Assets/logo.png" alt="Logo"></a>
         </div>
@@ -23,6 +23,10 @@
             <a onclick="showMenu()" href="#"><img class="menu" src="./Assets/burger-bar.png"><img class="close" src="./Assets/close.png"></a>
         </div>
     </section>
+
+    <div id="map"></div>
+
     <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3ranO7QL8DZIJNlxhsI9r-Py4yz1Qsnc&callback=initMap"></script>
 </body>
 </html>
