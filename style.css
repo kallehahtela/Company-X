@@ -56,8 +56,13 @@ img.close.show {
     right: 25px;
     display: flex;
 }
+
 /* GOOGLE MAPS API */
 #map {
     height: 150px;
-    width: 100%;
+    width: 80%;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    z-index: -1;
 }
