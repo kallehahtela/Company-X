@@ -1,0 +1,41 @@
+/* IPHONE 5, 5S, 5C */
+@media screen and (min-height: 568px) {
+    p {
+        position: absolute;
+        top: 140px;
+        left: 30px;
+        font-size: 30px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 400px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 530px;
+    }
+}
+
+@media screen and (min-height: 667px) {
+    p {
+        position: absolute;
+        top: 180px;
+        left: 40px;
+        font-size: 30px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 440px;
+        left: 100px;
+        font-size: 30px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 630px;
+        left: 65px;
+    }
+}
