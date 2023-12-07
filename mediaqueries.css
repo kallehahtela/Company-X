@@ -1,4 +1,4 @@
-/* IPHONE 5, 5S, 5C */
+/* IPHONE 5, 5S, 5C, SE 1st gen*/
 @media screen and (min-height: 568px) {
     p {
         position: absolute;
@@ -18,7 +18,7 @@
     }
 }
 
-/* Iphone 6, 6s */
+/* Iphone 6, 6s, 7, 8 */
 @media screen and (min-height: 667px) {
     p {
         position: absolute;
@@ -41,7 +41,7 @@
     }
 }
 
-/* Iphone 6 Plus, 6s Plus */
+/* Iphone 6 Plus, 6s Plus, iPhone 7 Plus, iPhone 8 Plus */
 @media screen and (min-height: 736px) {
     p {
         position: absolute;
@@ -64,25 +64,125 @@
     }
 }
 
-/* Iphone SE 1st gen */
-@media screen and (min-height: 568px) {
+/* Iphone SE 2nd gen, 3rd gen */
+@media screen and (min-height: 667px) {
     p {
         position: absolute;
         top: 160px;
         left: 45px;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .call-to-act {
         position: absolute;
-        top: 370px;
+        top: 420px;
         left: 80px;
         font-size: 30px;
+        width: 200px;
     }
 
     .footer-text {
         position: absolute;
-        top: 540px;
-        left: 45px;
+        top: 630px;
+        left: 70px;
+    }
+}
+
+/* Iphone 7, 8 -- for width */
+@media screen and (min-width: 414px) {
+    p {
+        position: absolute;
+        top: 160px;
+        left: 55px;
+        font-size: 30px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 420px;
+        left: 100px;
+        font-size: 30px;
+        width: 200px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 630px;
+        left: 80px;
+    }
+}
+
+/* iPhone X, iPhone XS, iPhone 11 Pro,iPhone 12 Mini, iPhone 13 Mini */
+@media screen and (min-height: 812px) {
+    p {
+        position: absolute;
+        top: 190px;
+        left: 40px;
+        font-size: 35px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 520px;
+        left: 100px;
+        font-size: 30px;
+        width: 200px;
+        height: 80px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 770px;
+        left: 80px;
+    }
+}
+
+/* iPhone XS Max, iPhone XR, iPhone 11 Pro Max*/
+@media screen and (min-height: 896px) {
+    p {
+        position: absolute;
+        top: 250px;
+        left: 40px;
+        font-size: 35px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 590px;
+        left: 100px;
+        font-size: 30px;
+        width: 200px;
+        height: 80px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 860px;
+        left: 80px;
+    }
+}
+
+/* iPhone 11 Pro, iPhone 12 Mini, iPhone 13 Mini */
+@media screen and (min-height: 896px) {
+    p {
+        position: absolute;
+        top: 250px;
+        left: 40px;
+        font-size: 35px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 590px;
+        left: 100px;
+        font-size: 30px;
+        width: 200px;
+        height: 80px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 860px;
+        left: 80px;
     }
 }
