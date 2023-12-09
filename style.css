@@ -12,11 +12,11 @@ html {
 }
 
 body {
-    background-color: #000;
+    background-color: #fff;
 }
 
 #nav {
-    background-color: #000;
+    background-color: rgba(255, 0, 184, 1);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -85,7 +85,7 @@ p {
     position: absolute;
     top: 150px;
     left: 35px;
-    color: #fff;
+    color: #000;
     font-weight: 300;
     font-size: 25px;
     z-index: 1;
@@ -99,7 +99,7 @@ p {
 
   .semibold-white {
     font-weight: 600;
-    color: white;
+    color: #000;
     z-index: 1;
 }
 
@@ -107,13 +107,13 @@ p {
     position: absolute;
     top: 350px;
     left: 70px;
-    width: 170px;
-    height: 60px;
+    width: 200px;
+    height: 90px;
     background-color: #FF00B8;
     color: #fff;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
     border: none;
     z-index: 1;
 }
