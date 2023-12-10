@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Occupare</title>
+    <link rel="shortcut icon" href="/Assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/mediaqueries.css">
+</head>
+<body>
+    <section id="nav">
+        <div class="logo">
+            <a href="#"><img src="/Assets/logo.png" alt="Logo"></a>
+        </div>
+        <nav class="navigation">
+            <a href="/index.html">Home</a>
+            <a href="/content/explore.html">Explore</a>
+            <a href="">Contact</a>
+            <a href="/content/signup.html">Sign In</a>
+        </nav>
+        <div class="toggleBox">
+            <a onclick="showMenu()" href="#"><img class="menu" src="/Assets/burger-bar.png"><img class="close" src="/Assets/close-white.png"></a>
+        </div>
+    </section>
+
+    <section id="signup-form">
+        <form class="form">
+            <div>
+                <label for="name">First Name</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+
+            <div>
+                <label for="name">Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+
+            <div>
+                <label for="email">email</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="number">Phone Number</label>
+                <input type="number" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="email">Username</label>
+                <input type="text" id="userName" name="userName">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div>
+                <label for="password_confirmation">Repeat password</label>
+                <input type="password" id="password_confirmation" name="password_confirmation">
+            </div>
+
+            <div class="button-container">
+                <button class="signup-btn">Sign Up</button>
+                <a href="./signup.html"><button class="login-btn">Login</button></a>
+            </div>
+        </form>
+    </section>
+   
+    <script src="/script.js"></script>
+</body>
+</html>

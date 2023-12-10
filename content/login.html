@@ -15,25 +15,32 @@
         </div>
         <nav class="navigation">
             <a href="/index.html">Home</a>
-            <a href="./explore.html">Explore</a>
+            <a href="/content/explore.html">Explore</a>
             <a href="">Contact</a>
             <a href="/content/signup.html">Sign In</a>
         </nav>
         <div class="toggleBox">
-            <a onclick="showMenu()" href="#"><img class="menu" src="/Assets/burger-bar.png"><img class="close" src="/Assets/close.png"></a>
+            <a onclick="showMenu()" href="#"><img class="menu" src="/Assets/burger-bar.png"><img class="close" src="/Assets/close-white.png"></a>
         </div>
     </section>
 
+    <section id="signup-form">
+        <form id="loginForm">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
 
-    <!-- Google maps API -->
-    <div id="map"></div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
 
-    <section id="SearchAction">
-        <input type="text" id="addressInput" placeholder="Enter Address">
-        <button onclick="addMarker()">Add Marker</button>
+            <input class="login-btn" type="submit" value="Login">
+        </form>
     </section>
+    
 
-    <script src="/script.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3ranO7QL8DZIJNlxhsI9r-Py4yz1Qsnc&callback=initMap"></script>
+    <script src="/content/admin.js"></script>
 </body>
 </html>

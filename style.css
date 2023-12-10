@@ -125,3 +125,110 @@ p {
     left: 40px;
     font-size: 15px;
 }
+
+
+/* Sign In */
+/* Center the content vertically and horizontally */
+#signup-form {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style labels */
+label {
+    margin-bottom: 5px; /* Add space between labels and inputs */
+    display: block;
+}
+
+/* Style input fields */
+input {
+    width: 250px; /* Adjust the width as needed */
+    padding: 8px;
+    margin-bottom: 10px; /* Add space between input fields */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Center the content horizontally for buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+    padding-bottom: 20px;
+}
+
+/* Style for buttons */
+.signup-btn,
+.login-btn {
+    padding: 10px 20px;
+    margin: 0 10px; /* Adjust the spacing between buttons */
+    border-radius: 5px;
+    border: none;
+    background-color: #FF00B8;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Dashboard */
+#usernameDisplay {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-pic {
+    position: absolute;
+    left: 105px;
+    top: 150px;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50px;
+}
+
+ /* CSS for the card */
+ .card1 {
+    position: absolute;
+    left: 20px;
+    top: 170px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 125px;
+  }
+  
+  .card1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+   /* CSS for the card */
+ .card2 {
+    position: absolute;
+    left: 160px;
+    top: 170px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 125px;
+  }
+
+  .card2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }

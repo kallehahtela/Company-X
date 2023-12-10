@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Occupare</title>
+    <link rel="shortcut icon" href="/Assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/mediaqueries.css">
+</head>
+<body>
+    <section id="nav">
+        <div class="logo">
+            <a href="#"><img src="/Assets/logo.png" alt="Logo"></a>
+        </div>
+        <nav class="navigation">
+            <a href="/index.html">Home</a>
+            <a href="/content/explore.html">Explore</a>
+            <a href="">Contact</a>
+            <a href="/content/login.html">Sign In</a>
+        </nav>
+        <div class="toggleBox">
+            <a onclick="showMenu()" href="#"><img class="menu" src="/Assets/burger-bar.png"><img class="close" src="/Assets/close-white.png"></a>
+        </div>
+    </section>
+
+    <section id="content">
+      <div id="usernameDisplay"></div>
+
+      <div class="card1 posting-history">
+        <a href="#">
+          <img src="/Assets/posting-history.png" alt="Icon">
+        </a>
+      </div>
+
+      <div class="card2 statistic">
+        <a href="#">
+          <img src="/Assets/statistic.png" alt="Icon">
+        </a>
+      </div>
+
+    </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get the username from the URL query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('username');
+
+        // Display the welcome message with the username
+        document.getElementById('usernameDisplay').innerText = `Welcome, ${username} to change the world!`;
+    });
+</script>
+
+<script src="/script.js"></script>
+    
+</body>
+</html>

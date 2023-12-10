@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <section>
+        <h1>Welcome</h1>
+        <div id="usernameDisplay"></div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the username from the URL query parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const username = urlParams.get('username');
+
+            // Display the welcome message with the username
+            document.getElementById('usernameDisplay').innerText = `Welcome, ${username}!`;
+        });
+    </script>
+</body>
+</html>
