@@ -87,7 +87,7 @@ p {
     left: 35px;
     color: #000;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 27px;
     z-index: 1;
 }
 
@@ -106,9 +106,9 @@ p {
   .call-to-act {
     position: absolute;
     top: 350px;
-    left: 70px;
-    width: 200px;
-    height: 90px;
+    left: 75px;
+    width: 180px;
+    height: 70px;
     background-color: #FF00B8;
     color: #fff;
     text-transform: uppercase;

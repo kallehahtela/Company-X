@@ -1,16 +1,15 @@
 /* iPhone 1st gen, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4S */
-@media screen and (max-height: 480px) {
+@media screen and (min-height: 480px) {
     p {
         position: absolute;
         top: 100px;
         left: 30px;
-        font-size: 20px;
     }
 
     .call-to-act {
         position: absolute;
         top: 290px;
-        left: 60px;
+        left: 70px;
     }
 
     .footer-text {
@@ -20,40 +19,40 @@
 }
 
 /* iPhone 5, iPhone 5S, iPhone 5C, iPhone SE 1st gen */
-@media screen and (max-height: 568px) {
+@media screen and (min-height: 568px) {
     p {
         position: absolute;
-        top: 160px;
+        top: 150px;
         left: 30px;
-        font-size: 28px;
     }
 
     .call-to-act {
         position: absolute;
-        top: 380px;
-        left: 60px;
+        top: 350px;
+        left: 65px;
     }
 
     .footer-text {
         position: absolute;
-        top: 520px;
+        top: 530px;
     }
 }
 
 /* iPhone 6, iPhone 7, iPhone 8, iPhone SE 2nd gen, iPhone SE 3rd gen */
-@media screen and (max-height: 667px) {
+@media screen and (min-height: 667px) {
     p {
         position: absolute;
-        top: 180px;
-        left: 35px;
-        font-size: 32px;
+        top: 170px;
+        left: 40px;
+        font-size: 30px;
     }
 
     .call-to-act {
         position: absolute;
-        top: 440px;
-        left: 90px;
-        font-size: 30px;
+        top: 420px;
+        left: 85px;
+        width: 200px;
+        height: 80px;
     }
 
     .footer-text {
@@ -64,44 +63,44 @@
 }
 
 /* iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8 Plus */
-@media screen and (max-height: 736px) {
+@media screen and (min-height: 736px) {
     p {
         position: absolute;
-        top: 180px;
-        left: 40px;
-        font-size: 35px;
-    }
-
-    .call-to-act {
-        position: absolute;
-        top: 480px;
-        left: 85px;
-        font-size: 30px;
-        width: 230px;
-    }
-
-    .footer-text {
-        position: absolute;
-        top: 695px;
-        left: 80px;
-    }
-}
-
-/* iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12 mini, iPhone 13 mini */
-@media screen and (max-height: 812px) {
-    p {
-        position: absolute;
-        top: 220px;
-        left: 30px;
+        top: 190px;
+        left: 50px;
         font-size: 33px;
     }
 
     .call-to-act {
         position: absolute;
-        top: 520px;
-        left: 70px;
-        font-size: 30px;
+        top: 490px;
+        left: 90px;
         width: 230px;
+        height: 90px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 700px;
+        left: 80px;
+    }
+}
+
+/* iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12 mini, iPhone 13 mini */
+@media screen and (min-height: 812px) {
+    p {
+        position: absolute;
+        top: 220px;
+        left: 40px;
+        font-size: 31px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 490px;
+        left: 70px;
+        width: 230px;
+        height: 90px;
     }
 
     .footer-text {
@@ -112,68 +111,68 @@
 }
 
 /* iPhone XS Max, iPhone XR,iPhone 11, iPhone 11 Pro Max */
-@media screen and (max-height: 896px) {
+@media screen and (min-height: 896px) {
     p {
         position: absolute;
         top: 250px;
-        left: 25px;
-        font-size: 37px;
+        left: 40px;
+        font-size: 35px;
     }
 
     .call-to-act {
         position: absolute;
-        top: 560px;
-        left: 85px;
-        font-size: 32px;
-        width: 240px;
+        top: 550px;
+        left: 90px;
+        width: 230px;
+        height: 90px;
     }
 
     .footer-text {
         position: absolute;
         top: 860px;
-        left: 80px;
+        left: 90px;
     }
 }
 
 /* iPhone 12 Pro, iPhone 12, iPhone 13, iPhone 14 */
-@media screen and (max-height: 844px) {
+@media screen and (min-height: 844px) {
     p {
         position: absolute;
-        top: 230px;
-        left: 25px;
-        font-size: 35px;
+        top: 240px;
+        left: 40px;
+        font-size: 33px;
     }
 
     .call-to-act {
         position: absolute;
-        top: 560px;
-        left: 70px;
-        font-size: 32px;
-        width: 240px;
+        top: 550px;
+        left: 80px;
+        width: 230px;
+        height: 90px;
     }
 
     .footer-text {
         position: absolute;
-        top: 800px;
+        top: 810px;
         left: 80px;
     }
 }
 
 /* iPhone 12 Pro Max, iPhone 13 Pro Max, iPhone 14 Plus */
-@media screen and (max-height: 926px) {
+@media screen and (min-height: 926px) {
     p {
         position: absolute;
-        top: 260px;
-        left: 35px;
+        top: 250px;
+        left: 30px;
         font-size: 37px;
     }
 
     .call-to-act {
         position: absolute;
-        top: 590px;
-        left: 75px;
-        font-size: 35px;
-        width: 260px;
+        top: 560px;
+        left: 90px;
+        width: 250px;
+        height: 110px;
     }
 
     .footer-text {
@@ -184,49 +183,69 @@
 }
 
 /* iPhone 12 Pro Max, iPhone 13 Pro Max, iPhone 14 Plus */
-@media screen and (max-height: 852px) {
+@media screen and (min-height: 926px) {
     p {
         position: absolute;
         top: 250px;
         left: 30px;
-        font-size: 35px;
+        font-size: 37px;
     }
 
     .call-to-act {
         position: absolute;
-        top: 570px;
-        left: 75px;
-        font-size: 35px;
-        width: 230px;
-    }
-
-    .footer-text {
-        position: absolute;
-        top: 820px;
-        left: 70px;
-    }
-}
-
-/* iPhone 14 Pro Max, iPhone 15 Plus, iPhone 15 Pro Max */
-@media screen and (max-height: 932px) {
-    p {
-        position: absolute;
-        top: 250px;
-        left: 30px;
-        font-size: 39px;
-    }
-
-    .call-to-act {
-        position: absolute;
-        top: 570px;
-        left: 85px;
-        font-size: 38px;
+        top: 560px;
+        left: 90px;
         width: 250px;
+        height: 110px;
     }
 
     .footer-text {
         position: absolute;
         top: 890px;
-        left: 85px;
+        left: 90px;
+    }
+}
+
+/* iPhone 14 Pro,  iPhone 15,  iPhone 15 Pro */
+@media screen and (min-height: 852px) {
+    p {
+        position: absolute;
+        top: 250px;
+        left: 35px;
+        font-size: 33px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 560px;
+        left: 80px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 820px;
+        left: 80px;
+    }
+}
+
+/* iPhone 14 Pro Max, iPhone 15 Plus, iPhone 15 Pro Max */
+@media screen and (min-height: 932px) {
+    p {
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        font-size: 38px;
+    }
+
+    .call-to-act {
+        position: absolute;
+        top: 560px;
+        left: 90px;
+    }
+
+    .footer-text {
+        position: absolute;
+        top: 900px;
+        left: 90px;
     }
 }
